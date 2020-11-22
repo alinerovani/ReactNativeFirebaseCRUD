@@ -17,6 +17,7 @@ class AddContact extends Component {
       isLoading: false
     };
   }
+  
 
   //atualiza o estado da propriedade sempre que o usuário insere um valor no campo
   inputValueUpdate = (val, prop) => {
