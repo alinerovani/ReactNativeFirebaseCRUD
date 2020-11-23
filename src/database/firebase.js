@@ -1,18 +1,18 @@
 import * as firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_DOMAIN,
-  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID
+  apiKey: "AIzaSyAx0EGv6nRby0ToBYbo8_O7JXBRX7gFm00",
+  authDomain: "reactnativefirebase-abb8d.firebaseapp.com",
+  databaseURL: "https://reactnativefirebase-abb8d.firebaseio.com",
+  projectId: "reactnativefirebase-abb8d",
+  storageBucket: "reactnativefirebase-abb8d.appspot.com",
+  messagingSenderId: "787634329660",
+  appId: "1:787634329660:web:6bc7b4beb3a35ecc730b39"
 };
 
-  if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
-  }
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig);
+}
 
 
 firebase.firestore();
